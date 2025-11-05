@@ -56,6 +56,7 @@ async def main() -> None:
 
     # Инициализируем следующее случайное время
     next_run = get_next_random_time_in_hour(datetime.now())
+    print(next_run)
 
     while True:
         now = datetime.now()
@@ -79,6 +80,7 @@ async def main() -> None:
 
             # Планируем следующий запуск — случайное время в следующем часе
             next_run = get_next_random_time_in_hour(now)
+            print(next_run)
 
         # Спим до следующего запланированного времени
         now = datetime.now()
