@@ -8,8 +8,8 @@ from bs4 import BeautifulSoup
 
 BASE_URL = "https://spmilabs.ru"
 CHECK_URLS = [
-    f"{BASE_URL}/new_record/7/89/10_20",
-    f"{BASE_URL}/new_record/7/89/10_21",
+    f"{BASE_URL}/new_record/7/90/10_27",
+    f"{BASE_URL}/new_record/7/90/10_28",
 ]
 
 def _needs_login(html: str) -> bool:
